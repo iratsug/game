@@ -115,7 +115,7 @@ func startChatServer(reader *bufio.Reader) {
 	}
 	defer listener.Close()
 	
-	fmt.Printf("\n✅ Чат запущен на порту %s\n", port)
+	fmt.Printf("\n Чат запущен на порту %s\n", port)
 	fmt.Println("Ожидание подключений...")
 	fmt.Println("(для выхода введи '/exit')")
 	fmt.Println()
