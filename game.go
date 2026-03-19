@@ -315,7 +315,7 @@ func startGameServer(reader *bufio.Reader) {
 	}
 	defer conn.Close()
 	
-	fmt.Println("✅ Противник подключился!")
+	fmt.Println(" Противник подключился!")
 	fmt.Println("Битва начинается через 3 секунды...")
 	time.Sleep(3 * time.Second)
 
